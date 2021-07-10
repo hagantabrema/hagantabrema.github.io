@@ -296,8 +296,9 @@ img {
 }
 
 .home_blob {
-    width: 200px;
+    width: 300px;
     fill: var(--first-color);
+    margin-right: 24px;
 }
 
 .home_blob-img {
@@ -378,7 +379,7 @@ img {
 
 /*==================== ABOUT ====================*/
 .about_img {
-    width: 200px;
+    width: 315px;
     border-radius: 0.5rem;
     justify-self: center;
     align-self: center;
@@ -414,6 +415,7 @@ img {
 .about_button {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 /*==================== SKILLS ====================*/
@@ -454,8 +456,13 @@ img {
 
 .skills_title {
     display: flex;
-    justify-content: space-between;
     margin-bottom: var(--mb-0-5);
+}
+
+.subskill_icon {
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    margin-right: 0.5rem;
 }
 
 .skills_name {
@@ -463,27 +470,27 @@ img {
     font-weight: var(--font-medium);
 }
 
-.skills_bar,
+/* .skills_bar,
 .skills_percentage {
     height: 5px;
     border-radius: 0.25rem;
-}
+} */
 
-.skills_bar {
+/* .skills_bar {
     background-color: var(--first-color-lighter);
-}
+} */
 
 .skills_list {
     row-gap: 1.5rem;
     padding-left: 2.7rem;
 }
 
-.skills_percentage {
+/* .skills_percentage {
     display: block;
     background-color: var(--first-color);
-}
+} */
 
-.skills_reactNative {
+/* .skills_reactNative {
     width: 80%;
 }
 
@@ -497,7 +504,7 @@ img {
 
 .skills_javascript {
     width: 60%;
-}
+} */
 
 .skills_close .skills_list {
     height: 0;
