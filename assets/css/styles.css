@@ -7,7 +7,7 @@
 
     /*========== Colors ===============*/
     /* Favorite Color */
-    --hue-color: 207;
+    --hue-color: 200;
 
     /* HSL Color */
     --first-color: hsl(var(--hue-color), 100%, 19%);
@@ -379,7 +379,7 @@ img {
 
 /*==================== ABOUT ====================*/
 .about_img {
-    width: 315px;
+    width: 100%;
     border-radius: 0.5rem;
     justify-self: center;
     align-self: center;
@@ -793,8 +793,6 @@ img {
     .qualification_data {
         gap: 0.5rem;
     }
-
-
 }
 
 /* For medium devices */
